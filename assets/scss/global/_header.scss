@@ -1,0 +1,28 @@
+.bg_nav-oscuro {
+	background-color: map-get($colors, carbon);
+}
+
+.nav-link {
+	text-align: center;
+	font-family: $titulos;
+	font-size: 1.1rem;
+	font-weight: normal;
+}
+
+.navbar-dark {
+	.navbar-nav {
+		.nav-link {
+			color: map-get($colors, blanco);
+			&:hover {
+				color: map-get($colors, desert-hover);
+			}
+		}
+	}
+}
+
+.navbar-toggler {
+	background-color: map-get($colors, negro);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-right: 0.3rem;
+}

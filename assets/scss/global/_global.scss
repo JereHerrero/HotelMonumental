@@ -1,0 +1,59 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+	font-size: 62,5%;
+}
+
+body {
+  background: url(../img/textura_bg.jpg);
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+a {
+  color: map-get($colors, blanco);
+  font-family: $titulos;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1 {
+  -webkit-text-stroke: 1px map-get($colors, negro);
+  font-family: $titulos;
+  color: $blanco;
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-family: $titulos;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-family: $titulos;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: $parrafo;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.texto_negrita {
+  font-weight: 600;
+}
+
+.h2_center {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-decoration: underline;
+}

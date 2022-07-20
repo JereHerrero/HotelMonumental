@@ -1,0 +1,134 @@
+
+.front_index {
+	background-image: url(../img/portada_index.jpg);
+	min-height: 100vh;
+	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	h1 {
+		color: $blanco;
+		font-family: $portada;
+		text-align: center;
+		font-size: 4.5rem;
+		clear: left;
+		top: 50%;
+		left: 0;
+		right: 0;
+		position: absolute;
+		text-shadow: 0 0 10px $negro;
+		margin-bottom: 0.5rem;
+		font-weight: 500;
+		line-height: 1.2;
+	}
+	span {
+		color: $beige;
+	}
+}
+
+.home_info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.home_info-text {
+	width: 50%;
+	justify-items: center;
+	margin: 8% 7% 5% 3%;
+	p {
+		font-size: 1rem;
+	}
+}
+
+.home_info-img {
+	img {
+		width: 60%;
+		margin-left: 25%;
+		margin-top: 10%;
+	}
+}
+
+.habitaciones {
+	width: 85%;
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 25px;
+}
+
+.cards {
+	background-color: $blanco;
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 02);
+	.img-one {
+		background-image: url(../img/habitacion1.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.img-two {
+		background-image: url(../img/habitacion1.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.img-three {
+		background-image: url(../img/habitacion1.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.pack-one {
+		background-image: url(../img/pack-boda.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.pack-two {
+		background-image: url(../img/pack-aniversario.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.pack-three {
+		background-image: url(../img/pack-senior.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+}
+
+.card-image {
+	height: 225px;
+}
+
+.card_text {
+	padding: 15px 10px;
+	text-align: center;
+	h2 {
+		letter-spacing: 1.5px;
+	}
+	p {
+		margin: 15px 0px;
+		font-size: 15px;
+	}
+	a {
+		text-decoration: none;
+		font-size: 17px;
+		color: $blanco;
+		letter-spacing: 1.5px;
+		display: inline-block;
+		background-color: $btn-reserva;
+		padding: 8px 15px;
+		&:hover {
+			background-color: $hover_btn-reserva;
+			color: $gris;
+			transition: 1s ease;
+			-webkit-transition: 1s ease;
+			-moz-transition: 1s ease;
+			-ms-transition: 1s ease;
+			-o-transition: 1s ease;
+		}
+	}
+}

@@ -1,0 +1,135 @@
+@media only screen and (max-width: 992px) {
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+  }
+  .bg_nav-oscuro {
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+  }
+  .bg_nav-oscuro {
+    z-index: 1;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .h2_center {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .front_index {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  .home_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .home_info-img {
+    img {
+      margin-left: 3%;
+      width: 93%;
+    }
+  }
+  .home_info-text {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .portada_bar-rest {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  .bar_img {
+    display: flex;
+    flex-direction: column;
+  }
+  .bar_descripcion {
+    margin: 0;
+    img {
+      width: 350px;
+    }
+  }
+  .restaurante_descripcion {
+    margin: 0;
+    img {
+      width: 350px;
+    }
+  }
+  .front_galeria {
+    font-size: 3rem;
+  }
+  .galeria_text {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 80%;
+  }
+  .front_nosotros {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .nosotros_img {
+    width: 300px;
+  }
+  .nosotros_text {
+    margin: 0 0 10% 0;
+    width: 80%;
+  }
+  .portada_contacto {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    form {
+      margin: 2rem 1rem 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 1rem;
+  }
+
+  .portada_bar-rest {
+    h1 {
+      font-size: 2.3rem;
+    }
+  }
+  .front_galeria {
+    h1 {
+      font-size: 2.3rem;
+    }
+  }
+  .front_nosotros {
+    h1 {
+      font-size: 2.3rem;
+    }
+  }
+  .front_contacto {
+    h1 {
+      font-size: 2.3rem;
+    }
+  }
+}

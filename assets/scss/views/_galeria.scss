@@ -1,0 +1,53 @@
+
+.front_galeria {
+	background-image: url(../img/portada_galeria.jpg);
+	min-height: 60vh;
+	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	h1 {
+		color: $blanco;
+		font-family: $portada;
+		text-align: center;
+		font-size: 4.5rem;
+		clear: left;
+		top: 30%;
+		left: 0;
+		right: 0;
+		position: absolute;
+		text-shadow: 0 0 10px $negro;
+		margin-bottom: 0.5rem;
+		font-weight: 500;
+		line-height: 1.2;
+	}
+}
+
+.galeria_text {
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	width: 40%;
+	h3 {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		text-decoration: underline;
+	}
+	h2 {
+		text-decoration: underline;
+	}
+}
+
+.galeria_img {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 25px;
+	margin: auto;
+	width: 80%;
+	margin-bottom: 25px;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
